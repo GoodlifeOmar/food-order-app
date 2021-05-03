@@ -1,0 +1,9 @@
+version: 2.1
+
+orbs:
+  heroku: circleci/heroku@1.2.6 # Invoke the Heroku orb
+
+workflows:
+  heroku_deploy:
+    jobs:
+      - heroku/deploy-via-git
