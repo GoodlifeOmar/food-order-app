@@ -20,10 +20,12 @@ Features
 
 This project makes it easy to:
 
-Place food orders using a post send for the following variables food_name, customer_name, and food_qty at the /new_order route
+Place food orders using a post send for the following variables: food_name, customer_name, and food_qty at the /new_order route
+
 View the entire order history at the /get_orders route
 
 Built With
 
 Express - Fast, unopinionated, minimalist web framework for Node.js
+
 Node.js - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.]
